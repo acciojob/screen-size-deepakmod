@@ -5,6 +5,6 @@
     function displayWindowSize() {
         let myWidth = window.innerWidth;
         let myHeight = window.innerHeight;
-        let size=document.getElementById("size");
-        size.innerText="Width: "+myWidth+"px "+"Height: "+myHeight+"px"
+        let sizeInfo=document.getElementById("sizeInfo");
+        sizeInfo.innerText="Width: "+myWidth+" and "+"Height: "+myHeight;
     }
